@@ -4,6 +4,8 @@ Ethereal is a, well, ethereal dark theme for Neovim 0.7.2 and older. It started 
 
 Credits to [tiagovla](https://github.com/tiagovla) for the original Lua code for the plugins.
 
+![image](https://github.com/presindent/ethereal.nvim/assets/115044400/76ae48da-523c-4a38-a7b8-3e7eb3a0e32f)
+
 ---
 
 ## Installation
