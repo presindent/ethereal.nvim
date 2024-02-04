@@ -403,6 +403,20 @@ M.highlights = {
 	scalaTypeOperator = { fg = p.red },
 	scalaOperator = { fg = p.red },
 	scalaKeywordModifier = { fg = p.red },
+
+	-- Diagnostics
+	DiagnosticError = { fg = p.red },
+	DiagnosticWarn = { fg = p.yellow },
+	DiagnosticInfo = { fg = p.blue },
+	DiagnosticHint = { fg = p.purple },
+
+	DiagnosticUnderlineError = { underline = true, sp = p.red },
+	DiagnosticUnderlineWarn = { underline = true, sp = p.yellow },
+	DiagnosticUnderlineInfo = { underline = true, sp = p.blue },
+	DiagnosticUnderlineHint = { underline = true, sp = p.purple },
+
+	-- Neo-tree highlights
+	NeoTreeGitModified = { fg = p.blue },
 }
 
 function M.setup()
