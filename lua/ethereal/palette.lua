@@ -2,7 +2,7 @@ local config = require("ethereal.config")
 local utils = require("ethereal.utils")
 
 local palette = {
-	black = "#00001a",
+	black = "#33364f",
 	bg0 = "#0d1116",
 	bg1 = "#02040a",
 	bg2 = "#33334d",
