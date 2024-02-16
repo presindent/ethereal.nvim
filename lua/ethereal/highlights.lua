@@ -422,7 +422,9 @@ M.highlights = {
 function M.setup()
 	local highlights = type(config.custom_highlights) == "function" and config.custom_highlights(M.highlights, p)
 		or config.custom_highlights
-	load_highlights(vim.tbl_extend("force", M.highlights, highlights))
+	local hl = vim.tbl_extend("force", M.highlights, highlights)
+	hl["@variable"] = { fg = p.fg } + styles.variables
+	load_highlights(hl)
 	if config.terminal_colors then
 		terminal.setup()
 	end
