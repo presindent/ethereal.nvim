@@ -262,6 +262,31 @@ M.highlights = {
 	["@variable"] = { fg = p.fg, default = true } + styles.variables,
 	["@variable.builtin"] = { fg = p.purple, default = true },
 
+	["@comment.note"] = { fg = p.blue },
+	["@comment.error"] = { fg = p.red },
+	["@comment.hint"] = { fg = p.green },
+	["@comment.info"] = { fg = p.blue },
+	["@comment.warning"] = { fg = p.orange },
+	["@comment.todo"] = { fg = p.yellow },
+
+	["@markup.link.label"] = { link = "SpecialChar" },
+	["@markup.link.label.symbol"] = { link = "Identifier" },
+	["@markup"] = { link = "@none" },
+	["@markup.environment"] = { link = "Macro" },
+	["@markup.environment.name"] = { link = "Type" },
+	["@markup.raw"] = { link = "String" },
+	["@markup.math"] = { link = "Special" },
+	["@markup.strong"] = { bold = true },
+	["@markup.emphasis"] = { italic = true },
+	["@markup.strikethrough"] = { strikethrough = true },
+	["@markup.underline"] = { underline = true },
+	["@markup.heading"] = { link = "Title" },
+	["@markup.link.url"] = { link = "Underlined" },
+
+	Underlined = { underline = true }, -- (preferred) text that stands out, HTML links
+	Bold = { bold = true },
+	Italic = { italic = true },
+
 	-- lsp
 	LspCxxHlGroupEnumConstant = { fg = p.orange },
 	LspCxxHlGroupMemberVariable = { fg = p.orange },
