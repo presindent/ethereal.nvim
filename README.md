@@ -28,10 +28,11 @@ Credits to [tiagovla](https://github.com/tiagovla) for the original Lua code for
 
 ```lua
 local default_config = {
+    palette = 1, -- Use `palette = 2` to use the purple palette
     transparent_background = false,
     gamma = 1.00, -- Adjust the brightness of the theme.
     styles = {
-        comments = { italic = true }, -- Styling for comments and so on.
+        comments = { italic = false }, -- Styling for comments and so on.
         keywords = { italic = true },
         identifiers = { italic = true },
         functions = {},

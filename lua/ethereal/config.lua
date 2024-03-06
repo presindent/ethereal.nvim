@@ -1,6 +1,7 @@
 local config = {}
 
 local default_config = {
+	palette = 1,
 	transparent_background = false,
 	gamma = 1.00,
 	styles = {
